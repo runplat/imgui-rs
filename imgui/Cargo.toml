@@ -17,7 +17,7 @@ features = ["freetype", "docking", "tables-api"]
 
 [dependencies]
 bitflags = "1"
-imgui-sys = { version = "0.11.0", path = "../imgui-sys" }
+imgui-sys = { git = "https://github.com/runplat/imgui-rs" } # { version = "0.11.0", path = "../imgui-sys" }
 mint = "0.5.6"
 parking_lot = "0.12"
 cfg-if = "1"
