@@ -1,5 +1,4 @@
 pub extern crate glium;
-pub extern crate imgui;
 
 use glium::backend::{Context, Facade};
 use glium::index::{self, PrimitiveType};

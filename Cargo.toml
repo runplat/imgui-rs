@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "imgui",
+    "imgui_12",
     "imgui-sys",
     "imgui-glium-renderer",
     "imgui-glow-renderer",

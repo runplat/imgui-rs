@@ -73,7 +73,11 @@
 //! }).expect("EventLoop error");
 //! ```
 
-use imgui::{self, BackendFlags, ConfigFlags, Context, Io, Key, Ui};
+mod imgui {
+    pub use imgui_12::*;
+}
+
+use imgui::{BackendFlags, ConfigFlags, Context, Io, Key, Ui};
 use std::cmp::Ordering;
 
 // Re-export winit to make it easier for users to use the correct version.

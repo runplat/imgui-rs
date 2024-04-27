@@ -9,7 +9,7 @@ documentation = "https://docs.rs/imgui-sys"
 license = "MIT OR Apache-2.0"
 categories = ["gui", "external-ffi-bindings"]
 build = "build.rs"
-links = "imgui"
+links = "imgui_12"
 
 # exclude json, lua, and the imgui subdirs (imgui/examples, imgui/docs, etc)
 # ..but we need imgui/misc/freetype/ for the freetype feature

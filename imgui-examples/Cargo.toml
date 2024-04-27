@@ -12,7 +12,7 @@ publish = false
 copypasta = "0.8"
 glium = { version = "0.34.0", default-features = true }
 image = "0.23"
-imgui = { path = "../imgui", features = ["tables-api"] }
+imgui = { package ="imgui_12", path = "../imgui_12", features = ["tables-api"] }
 imgui-glium-renderer = { path = "../imgui-glium-renderer" }
 imgui-winit-support = { path = "../imgui-winit-support" }
 

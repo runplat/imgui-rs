@@ -1,5 +1,5 @@
 [package]
-name = "imgui"
+name = "imgui_12"
 version = "0.12.0"
 edition = "2021"
 description = "High-level Rust bindings to dear imgui"
