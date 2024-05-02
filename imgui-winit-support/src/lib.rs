@@ -471,7 +471,7 @@ impl WinitPlatform {
                 if let Some(txt) = &event.text {
                     if event.state.is_pressed() {
                         for ch in txt.chars() {
-                            if ch != '\u{7f}' {
+                            if ch != '\u{7f}' && ch != '\u{8}' {
                                 io.add_input_character(ch)
                             }
                         }
