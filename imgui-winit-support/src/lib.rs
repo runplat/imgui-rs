@@ -494,7 +494,6 @@ impl WinitPlatform {
                     io.add_key_event(key, pressed);
                 }
             }
-            WindowEvent::
             WindowEvent::CursorMoved { position, .. } => {
                 let position = position.to_logical(window.scale_factor());
                 let position = self.scale_pos_from_winit(window, position);
